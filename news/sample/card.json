@@ -1,0 +1,10 @@
+{
+ "platform": "WHATSAPP",
+ "date": "SAMPLE",
+ "headline": "WhatsApp replies now cost money",
+ "highlight": "now cost money",
+ "changed": "Since 1 October 2026, service messages (your replies inside the 24-hour window) are billed per message on the WhatsApp Business API in India.",
+ "means": "Cart recovery and COD confirmation still work, but every reply now adds to your bill. Chatty support flows get expensive fast.",
+ "action": "Check last month's reply volume and trim bot back-and-forth.",
+ "source": "Meta, WhatsApp Business Platform pricing (Oct 2026)"
+}
