@@ -1,0 +1,138 @@
+{
+ "D08": {
+  "eyebrow": "AFTER THE DIWALI RUSH",
+  "big": "25–40%",
+  "line": "of Indian online orders come back as returns, vs 16.9–24.5% globally.",
+  "source": "CSEP India E-Commerce Report 2026 (industry estimates)",
+  "size": 330
+ },
+ "D10": {
+  "eyebrow": "HOW INDIA PAYS",
+  "big": "40–65%",
+  "line": "of Indian online orders are cash on delivery, depending on the study.",
+  "source": "CSEP 2026 (KPMG 2024); Razorpay",
+  "theme": "yellow",
+  "size": 330
+ },
+ "D12": {
+  "eyebrow": "WHATSAPP MARKETING",
+  "big": "1.5X",
+  "line": "more GMV growth for D2C brands using WhatsApp marketing than for brands that didn't.",
+  "source": "GoKwik WhatsApp Commerce Report (2026), vendor's own data"
+ },
+ "D15": {
+  "eyebrow": "THE BIGGER BASKET",
+  "big": "56%",
+  "line": "more per transaction online than offline. That's the room your bundles fill.",
+  "source": "dentsu x PhonePe, The Bharatiya Consumer (2024)",
+  "theme": "yellow"
+ },
+ "D17": {
+  "eyebrow": "META ADS",
+  "big": "29.3%",
+  "line": "of Meta ad spend went to plain offer-first banners, the top format.",
+  "source": "Motion Creative Benchmarks 2026"
+ },
+ "D19": {
+  "eyebrow": "SMALL-TOWN PAYMENTS",
+  "big": "35%",
+  "line": "of small-town shoppers pay cash on delivery, vs 26% in metros. COD is a trust choice.",
+  "source": "PwC, How India Shops Online (2024)",
+  "theme": "yellow"
+ },
+ "D22": {
+  "eyebrow": "WHAT SHOPPERS SAY",
+  "quote": "In the photos I don't understand what kind of blue the product is going to be... hence, I rely on review pictures.",
+  "who": "GEN Z SHOPPER",
+  "source": "PwC, How India Shops Online (2024)"
+ },
+ "D24": {
+  "eyebrow": "FIRST-TIME BUYERS",
+  "big": "97.6%",
+  "line": "of online stores give a first-time buyer no offer near the Buy button.",
+  "source": "CROBenchmark 2026 by Omniconvert",
+  "theme": "yellow"
+ },
+ "D26": {
+  "eyebrow": "FESTIVE QUARTER",
+  "big": "3.04%",
+  "line": "WhatsApp click-through rate at its Oct–Dec peak, up from 2.23% the year before.",
+  "source": "GoKwik WhatsApp Commerce Report (2026)"
+ },
+ "D29": {
+  "eyebrow": "INDIA'S D2C MARKET",
+  "big": "$266.7B",
+  "line": "projected D2C market by 2030, up from $87.5B in 2025. About 25% a year.",
+  "source": "CSEP India E-Commerce Report 2026 (Mordor, Statista)",
+  "theme": "yellow",
+  "size": 300
+ },
+ "D31": {
+  "eyebrow": "TIER 3 IS RISING",
+  "big": "38%",
+  "line": "of India's ecommerce order volumes came from tier 3 cities in FY2025, up 21% in a year.",
+  "source": "CSEP India E-Commerce Report 2026 (industry studies)"
+ },
+ "D34": {
+  "eyebrow": "VIDEO SELLS IN INDIA",
+  "big": "71%",
+  "line": "of Indian online shoppers have bought via YouTube, vs 29% globally.",
+  "source": "DHL 2026 E-Commerce Trends Report",
+  "theme": "yellow"
+ },
+ "D38": {
+  "eyebrow": "WHERE VISITS HAPPEN",
+  "big": "69.9%",
+  "line": "of ecommerce visits happen on mobile. Design for the phone first.",
+  "source": "Contentsquare (2026)"
+ },
+ "D41": {
+  "eyebrow": "MOBILE PRODUCT PAGES",
+  "big": "62%",
+  "line": "of mobile product pages are rated mediocre or worse for usability.",
+  "source": "Baymard Institute (Mar 2026)",
+  "theme": "yellow"
+ },
+ "D45": {
+  "eyebrow": "META AD FORMATS",
+  "big": "9.8%",
+  "line": "hit rate for unboxing ads, the highest of any format. Only 2.1% of ads used it.",
+  "source": "Motion Creative Benchmarks 2026"
+ },
+ "D48": {
+  "eyebrow": "THE CONVERSION SQUEEZE",
+  "big": "−5.1%",
+  "line": "drop in conversion rates in a year, while order values rose 6%.",
+  "source": "Contentsquare (Q4 2024 to Q4 2025)",
+  "theme": "yellow",
+  "size": 380
+ },
+ "D52": {
+  "eyebrow": "ONE BAD EXPERIENCE",
+  "big": "58%",
+  "line": "of bad online retail experiences lead customers to cut their spending.",
+  "source": "Qualtrics (Q3 2025)"
+ },
+ "D58": {
+  "eyebrow": "RETAIL MEDIA",
+  "big": "₹17,601 CR",
+  "line": "spent on ads inside ecommerce platforms in 2025, up 55.86%.",
+  "source": "dentsu e4m Digital Advertising Report 2026",
+  "theme": "yellow",
+  "size": 250
+ },
+ "D61": {
+  "eyebrow": "DELIVERY EXPECTATIONS",
+  "big": "61%",
+  "line": "of Indian shoppers pay for a delivery and returns subscription, vs 40% globally.",
+  "source": "DHL 2026 E-Commerce Trends Report"
+ },
+ "D63": {
+  "eyebrow": "JANUARY SLOTS OPEN",
+  "big": "4",
+  "line": "new brands a month. Store, Meta ads and WhatsApp for ₹30,000 for 3 months. Store live in 15 working days.",
+  "source": "konvexmarketing.in",
+  "cta": "WHATSAPP \"LAUNCH\"",
+  "theme": "yellow"
+ }
+}

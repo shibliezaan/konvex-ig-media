@@ -33,7 +33,8 @@ def page(c):
         hero = (f'<div class="q">&ldquo;{e["quote"]}&rdquo;</div>'
                 f'<div class="who">{e.get("who", "")}</div>')
     else:
-        hero = f'<div class="big">{e["big"]}</div><div class="line">{e["line"]}</div>'
+        size = f' style="font-size:{int(c["size"])}px"' if c.get("size") else ""
+        hero = f'<div class="big"{size}>{e["big"]}</div><div class="line">{e["line"]}</div>'
     extra = f'<div class="line">{e["line"]}</div>' if c.get("quote") and c.get("line") else ""
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:Bebas;src:url('{F}/bebas-neue-latin-400-normal.woff2')}}
@@ -47,7 +48,7 @@ body{{width:1080px;height:1350px;background:{bg};color:{ink};font-family:Brico;p
 .rule{{height:8px;background:{acc};margin:28px 0 40px}}
 .eb{{font-family:Mono;font-size:28px;letter-spacing:.14em;color:{acc}}}
 .sp{{flex:1}}
-.big{{font-family:Bebas;font-size:420px;line-height:.85;color:{acc}}}
+.big{{font-family:Bebas;font-size:420px;line-height:.85;color:{acc};white-space:nowrap}}
 .line{{font-size:46px;line-height:1.25;margin-top:28px;max-width:900px}}
 .q{{font-size:62px;line-height:1.2;font-weight:700}}
 .who{{font-family:Mono;font-size:26px;margin-top:30px;color:{acc}}}
@@ -61,7 +62,7 @@ body{{width:1080px;height:1350px;background:{bg};color:{ink};font-family:Brico;p
 <div class="sp"></div>
 {hero}{extra}
 <div class="sp"></div>
-<div class="foot"><div class="src">SOURCE: {e['source']}</div><div class="cta">DM "AUDIT"</div></div>
+<div class="foot"><div class="src">{'' if c.get('cta') else 'SOURCE: '}{e['source']}</div><div class="cta">{html.escape(c.get('cta', 'DM "AUDIT"'))}</div></div>
 </body></html>"""
 
 
@@ -76,7 +77,7 @@ def main(p):
         pg.goto(tmp.as_uri())
         pg.evaluate("document.fonts.ready")
         pg.wait_for_timeout(300)
-        over = pg.evaluate("document.body.scrollHeight > window.innerHeight")
+        over = pg.evaluate("document.body.scrollHeight > window.innerHeight || document.body.scrollWidth > window.innerWidth")
         png = p.parent / "_card.png"
         pg.screenshot(path=str(png))
         b.close()
