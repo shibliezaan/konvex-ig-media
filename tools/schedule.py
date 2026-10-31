@@ -661,11 +661,21 @@ Say the date, not the days. "Arrives by Friday" beats "3–5 business days".""",
     "Does your store show delivery trust? DM AUDIT."),
     "7-slide carousel: 7 in 10 won't buy if they don't trust your delivery. 4 ways to show delivery trust.")
 
-add("D58", "STAT", "₹17,601 crore on retail media ads", "D58", cap("""
-₹17,601 crore was spent on ads inside ecommerce platforms in 2025, up 55.86% (dentsu e4m Digital Advertising Report 2026).
+add("D58", "CAROUSEL", "Shopify doesn't set up your tracking", "X10", cap("""
+Shopify makes selling easy. It doesn't set up your tracking, and your Meta ads are flying blind.
 
-Brands are paying more and more just to be seen on marketplaces. Your own store and WhatsApp list are the audience you don't have to rent.""", "retail media India | marketplace ads | D2C brands", H_ADS),
-    "Stat card: ₹17,601 crore spent on ads inside ecommerce platforms in 2025, up 55.86%.")
+Shopify stores average 23.4 out of 100 on tracking, the lowest of any major platform, and 42.4% of the Shopify stores audited scored zero (CROBenchmark 2026 by Omniconvert).
+
+Why it matters: Meta learns from your data. If purchases don't reach Meta, it can't find more buyers like them. You pay for clicks and guess the rest.
+
+The 3-part fix:
+1. Meta pixel on every page
+2. Conversions API (server-side) so purchases aren't lost
+3. Test a real order and check it shows in Events Manager
+
+And track returns too. For COD stores, a purchase isn't a sale until it's delivered. Report ROAS after RTO, not before.""", "Meta pixel Shopify | Conversions API | " + KW_ADS, H_ADS,
+    "Is your pixel actually working? DM AUDIT."),
+    "7-slide carousel: Shopify doesn't set up your tracking. Why Meta needs your data and the 3-part pixel fix.")
 
 add("D59", "CAROUSEL", "India is No. 1 for AI shopping assistants", "X18", cap("""
 India is the No. 1 market for AI shopping assistants. Can ChatGPT read your product page?
