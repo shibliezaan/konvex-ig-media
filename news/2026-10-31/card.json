@@ -1,0 +1,10 @@
+{
+ "platform": "META",
+ "date": "31 OCT 2026",
+ "headline": "Meta delays its new ad terms",
+ "highlight": "new ad terms",
+ "changed": "Meta's updated Commercial Terms and Self-Serve Ad Terms were due on 30 October. Meta pushed them to 20 November and says the date could move again.",
+ "means": "Your current terms still apply. The new ones let Meta's crawlers access websites linked to business accounts, which includes your store.",
+ "action": "Read the new terms and check your store's robots.txt before 20 November.",
+ "source": "Fast Company and Engadget, Oct 2026"
+}
