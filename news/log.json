@@ -4,5 +4,13 @@
   "platform": "META",
   "headline": "Meta delays its new ad terms",
   "source_url": "https://www.fastcompany.com/91628981/meta-quietly-delays-controversial-update-that-critics-say-will-allow-website-scraping"
+ },
+ {
+  "date": "2026-11-02",
+  "platform": "SHOPIFY",
+  "headline": "Shopify now recovers carts on WhatsApp",
+  "source_url": "https://changelog.shopify.com/posts/create-whatsapp-marketing-automations-in-shopify-messaging",
+  "score": 7,
+  "so_what": "If you turn on Shopify's WhatsApp abandoned checkout automation, you can win back opted-in shoppers for about Rs 2 a message without a third-party WhatsApp app."
  }
 ]
